@@ -13,3 +13,6 @@ python3 tcp_sender.py
 # 再启动接受端
 python3 tcp_receiver.py [发送端的IP地址]
 ```
+
+## 注意
+未测试多个进程同时使用时的正确性
